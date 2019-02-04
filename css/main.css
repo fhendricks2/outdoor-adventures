@@ -59,4 +59,14 @@
   font-size: 20px;
   font-family: 'EB Garamond', serif; }
 
+.catergories h1 {
+  font-size: 50px; }
+
+.camping {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px; }
+  .camping h2 {
+    color: #3e8914;
+    text-decoration: underline; }
+
 /*# sourceMappingURL=main.css.map */

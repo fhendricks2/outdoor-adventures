@@ -7,6 +7,7 @@
         'partials/responsive';
 
 
+
 // header
 .container {
     background-image: url("../images/19-outdoor-adventure-mountains-hiking-madeira-island-clouds.jpg");  
@@ -91,5 +92,22 @@
     font-family: 'EB Garamond', serif;
 }
 
+// Catergories
+.catergories {
+    h1 {
+        font-size: 50px;
+    }
+}
+
+// Camping
+.camping {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+
+    h2 {
+        color: $color-sec;
+        text-decoration: underline;
+    }
+}
   
 
