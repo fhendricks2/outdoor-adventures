@@ -63,11 +63,15 @@
   font-size: 50px; }
 
 .camping,
-.hiking {
+.hiking,
+.hunting,
+.fishing {
   font-family: 'EB Garamond', serif;
   font-size: 20px; }
   .camping h2,
-  .hiking h2 {
+  .hiking h2,
+  .hunting h2,
+  .fishing h2 {
     color: #3e8914;
     text-decoration: underline; }
 
