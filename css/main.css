@@ -54,4 +54,9 @@
 .dropdown:hover .dropdown-content {
   display: block; }
 
+.intro {
+  padding-top: 60px;
+  font-size: 20px;
+  font-family: 'EB Garamond', serif; }
+
 /*# sourceMappingURL=main.css.map */
