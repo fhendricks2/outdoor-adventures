@@ -1,0 +1,19 @@
+// header
+.container {
+    background: $color-prim; 
+    // background: -webkit-linear-gradient(to top, $color-sec, $color-link-default, $color-text-base);   
+    background-image: linear-gradient(to top, $color-sec, $color-link-default, $color-text-base), url(../../images/19-outdoor-adventure-mountains-hiking-madeira-island-clouds.jpg);
+    color: $color-text;
+    padding:4em 0;
+    text-align: center;
+
+    h1 {
+        text-transform: uppercase;
+    }
+}
+
+.sections {
+    ul {
+        list-style-type: none;
+    }
+}
