@@ -61,7 +61,7 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: $color-body;
+    background-color: $color-text-base;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -94,23 +94,32 @@
 
 // Catergories
 .catergories {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+
     h1 {
         font-size: 50px;
     }
 }
 
-// Camping
 .camping,
 .hiking,
 .hunting,
 .fishing,
-.climb {
+.climb,
+.canoeing {
     font-family: 'EB Garamond', serif;
     font-size: 20px;
 
     h2 {
         color: $color-sec;
         text-decoration: underline;
+    }
+
+    img {
+        width: 25em;
+        border: $color-link-visited 5px solid;
+        float: right;
     }
 }
 

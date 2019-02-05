@@ -38,7 +38,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #fff;
+  background-color: #d7f75b;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1; }
@@ -59,22 +59,36 @@
   font-size: 20px;
   font-family: 'EB Garamond', serif; }
 
-.catergories h1 {
-  font-size: 50px; }
+.catergories {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px; }
+  .catergories h1 {
+    font-size: 50px; }
 
 .camping,
 .hiking,
 .hunting,
 .fishing,
-.climb {
+.climb,
+.canoeing {
   font-family: 'EB Garamond', serif;
   font-size: 20px; }
   .camping h2,
   .hiking h2,
   .hunting h2,
   .fishing h2,
-  .climb h2 {
+  .climb h2,
+  .canoeing h2 {
     color: #3e8914;
     text-decoration: underline; }
+  .camping img,
+  .hiking img,
+  .hunting img,
+  .fishing img,
+  .climb img,
+  .canoeing img {
+    width: 25em;
+    border: #d19c1d 5px solid;
+    float: right; }
 
 /*# sourceMappingURL=main.css.map */
