@@ -76,21 +76,10 @@ html {
 // Gallery
 
 .body {
-    background: $color-text;
-    color: $color-body;
-    text-align: center;
-    font-size: 40px;
-    padding: 15px;
-    h1 {
-        box-shadow: 0 8px 16px 0 $color-body, 0 6px 20px 0 $color-body;
-    }
+    @include body;
 }
 .grid {
-    display: grid;
-    grid-column-gap: 20px;
-    grid-row-gap: 50px;
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-columns: repeat(6, 1fr);   
+    @include grid;
 }
 
 img {
@@ -100,6 +89,7 @@ img {
     border-radius: 15px;
 }
 
+// Main Images
 .image1 {
     grid-column: 1 / span 2;
     grid-row: span 2;
