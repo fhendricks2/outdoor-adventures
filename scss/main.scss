@@ -132,3 +132,53 @@ img {
         width: 100%;
     }
 }
+
+// Contact Form
+input[type=text], 
+select, 
+textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid #cccccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+    
+input[type=submit] {
+    background-color: #4CAF50;
+    color: $color-body;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+  
+  /* Add a background color and some padding around the form */
+.wrap {
+    border-radius: 5px;
+    background-color: $color-text;
+    padding: 120px;
+
+    h1 {
+        color: $color-body;
+        text-align: center;
+        padding-bottom: 80px;
+        font-size: 55px;
+        text-decoration: underline;
+    }
+}
+
+form {
+    box-shadow: 0 8px 16px 0 $color-body, 0 6px 20px 0 $color-body;
+    padding: 25px;
+    border-radius: 5px;
+    background: white;
+}
