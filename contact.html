@@ -9,32 +9,61 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <div class="wrap">
+    <div class="container-contact100">
+        <div class="wrap-contact100">
 
-        <h1>Contact Form</h1>
-        <form action="action_page.php">
-              
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              
-            <label for="country">Country</label>
-            <select id="country" name="country">
-                <option value="usa">South Africa</option>
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-            </select>
-              
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-              
-            <input type="submit" value="Submit">
-              
-        </form>
+            <form class="contact100-form validate-form">
+                <span class="contact100-form-title">
+                    Send Us A Message
+                </span>
+        
+        
+                <div class="wrap-input100 validate-input" data-validate="Name is required">
+                    <label class="label-input100" for="name">Full name</label>
+                    <input id="name" class="input100" type="text" name="name" placeholder="Enter your name...">
+                    <span class="focus-input100"></span>
+                </div>
+        
+        
+                <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                    <label class="label-input100" for="email">Email Address</label>
+                    <input id="email" class="input100" type="text" name="email" placeholder="Enter your email...">
+                    <span class="focus-input100"></span>
+                </div>
+
+        
+                <div class="wrap-input100 validate-input" data-validate = "Message is required">
+                    <label class="label-input100" for="message">Message</label>
+                    <textarea id="message" class="input100" name="message" placeholder="Type your message here..."></textarea>
+                    <span class="focus-input100"></span>
+                </div>
+        
+                <div class="container-contact100-form-btn">
+                    <button class="contact100-form-btn">
+                        Send
+                    </button>
+                </div>
+        
+                <div class="contact100-form-social">
+                    <a href="#" class="contact100-form-social-item">
+                        <i class="fa fa-facebook-f" aria-hidden="true"></i>
+                    </a>
+        
+                    <a href="#" class="contact100-form-social-item">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+        
+                    <a href="#" class="contact100-form-social-item">
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </form>
+
+            <div class="contact100-image"> 
+                <img src="images/bg-01.jpg" alt="bg-01" class="contact-image01">
+            </div>
+        </div>
     </div>
-              
+        
 </body>
 </html>
