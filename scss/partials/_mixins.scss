@@ -9,7 +9,6 @@
         text-transform: uppercase;
         margin-top: 125px;
         font-size: 60px;
-        box-shadow: 0 8px 16px 0 $color-text, 0 6px 20px 0 $color-text;
     }
 }
 
@@ -21,7 +20,7 @@
     margin-top: 140px;
     -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
     -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
-    box-shadow: inset 0 2px 4px rgba(0,0,0,1);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,1);
     border-radius:5px;    
     ul {
         list-style-type: none;
@@ -127,4 +126,42 @@
     grid-row-gap: 50px;
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: repeat(6, 1fr); 
+}
+
+@mixin wrap {
+    border-radius: 5px;
+    background-color: $color-text;
+    padding: 120px;
+
+    h1 {
+        color: $color-body;
+        text-align: center;
+        padding-bottom: 80px;
+        font-size: 55px;
+        text-decoration: underline;
+    }
+}
+
+@mixin overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: $color-text-base;
+    border-radius: 15px;
+}
+
+@mixin text {
+    color: $color-link-visited;
+    font-size: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }

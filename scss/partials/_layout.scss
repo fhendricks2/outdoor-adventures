@@ -83,6 +83,12 @@
     font-family: 'EB Garamond', serif;
 }
 
+.introTwo {
+    padding-top: 60px;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+}
+
 // Catergories
 .catergories {
     font-family: 'EB Garamond', serif;
@@ -136,4 +142,10 @@
     #myBtn:hover {
         background-color: #555; 
     }
+}
+
+
+#home{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 }
