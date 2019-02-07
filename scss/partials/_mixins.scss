@@ -88,6 +88,7 @@
 @mixin activities {
     font-family: 'EB Garamond', serif;
     font-size: 20px;
+    padding: 0 20px;
 
     h2 {
         color: $color-sec;
@@ -95,10 +96,12 @@
     }
 
     img {
-        width: 25em;
-        border: $color-link-visited 5px solid;
+        width: 22em;
         float: right;
-        box-shadow: 0 8px 16px 0 $color-text, 0 6px 20px 0 $color-text;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        border-radius: 0;
+
     }
 }
 

@@ -111,7 +111,8 @@ html {
 
 #home {
   display: grid;
-  grid-template-columns: 1fr 1fr; }
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px; }
 
 .catergories {
   font-family: 'EB Garamond', serif;
@@ -127,7 +128,8 @@ html {
 .climb,
 .canoeing {
   font-family: 'EB Garamond', serif;
-  font-size: 20px; }
+  font-size: 20px;
+  padding: 0 20px; }
   .camping h2,
   .hiking h2,
   .hunting h2,
@@ -142,15 +144,11 @@ html {
   .fishing img,
   .climb img,
   .canoeing img {
-    width: 25em;
-    border: #d19c1d 5px solid;
+    width: 22em;
     float: right;
-    box-shadow: 0 8px 16px 0 #000, 0 6px 20px 0 #000; }
-
-.camping,
-.hunting,
-.climb {
-  box-shadow: 0 8px 16px 0 #000, 0 6px 20px 0 #000; }
+    padding-bottom: 1em;
+    padding-left: 1em;
+    border-radius: 0; }
 
 #myBtn {
   display: none;

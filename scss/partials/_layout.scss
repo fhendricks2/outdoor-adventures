@@ -117,7 +117,6 @@
         width: 25em;
         border: $color-link-visited 5px solid;
         float: right;
-        box-shadow: 0 8px 16px 0 $color-text, 0 6px 20px 0 $color-text;
     }
 }
 
@@ -148,4 +147,5 @@
 #home{
     display:grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
 }
