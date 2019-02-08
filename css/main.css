@@ -521,12 +521,42 @@ textarea.input100 {
 @media screen and (max-width: 310px) {
   .body {
     font-size: 20px; } }
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 1024px) {
   .wrap-contact100 {
-    display: block; } }
+    display: block; }
+
+  .contact-image01 {
+    width: 40em; } }
 @media screen and (max-width: 735px) {
   .contact100-form {
     width: 390px;
-    padding: 20px 55px 30px 55px; } }
+    padding: 20px 55px 30px 55px; }
+
+  .contact-image01 {
+    width: 30em; } }
+@media screen and (max-width: 425px) {
+  .contact100-form {
+    width: 300px;
+    padding-left: 25px; }
+
+  .contact-image01 {
+    width: 23em; }
+
+  .input100 {
+    width: 13em; } }
+@media screen and (max-width: 375px) {
+  .contact100-form {
+    width: 300px;
+    padding-left: 15px; }
+
+  .contact-image01 {
+    width: 19em; } }
+@media screen and (max-width: 320px) {
+  .contact100-form {
+    width: 300px;
+    padding-left: 0; }
+
+  .contact-image01 {
+    width: 16em; } }
 
 /*# sourceMappingURL=main.css.map */
