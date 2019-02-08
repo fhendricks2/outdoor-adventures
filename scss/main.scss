@@ -298,6 +298,34 @@ textarea.input100 {
     background: #404b46;
 }
 
+// ------------------------------
+// <<---Media Queries--->>
+// ------------------------------
 
+// <<---Main Page-->>
+
+@media screen and (max-width: 790px){
+
+    .sections {
+        width: 16em;
+    }
+    ul {
+        display: block;
+        width: 35px;
+    }
+
+    li {
+        text-align: center;
+    }
+}
   
+@media screen and (max-width: 475px){
+    .container h1 {
+        font-size: 30px;
+    }
+
+    .dropdown-content {
+        margin-left: 2em;
+    }
+}
   

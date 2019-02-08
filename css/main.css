@@ -39,6 +39,10 @@
   #myBtn #myBtn:hover {
     background-color: #555; }
 
+@media screen and (min-width: 790px) {
+  .sections {
+    display: block;
+    width: 35; } }
 html {
   scroll-behavior: smooth;
   padding: 0px 20px; }
@@ -453,5 +457,22 @@ textarea.input100 {
 
 .contact100-form-btn:hover {
   background: #404b46; }
+
+@media screen and (max-width: 790px) {
+  .sections {
+    width: 16em; }
+
+  ul {
+    display: block;
+    width: 35px; }
+
+  li {
+    text-align: center; } }
+@media screen and (max-width: 475px) {
+  .container h1 {
+    font-size: 30px; }
+
+  .dropdown-content {
+    margin-left: 2em; } }
 
 /*# sourceMappingURL=main.css.map */
