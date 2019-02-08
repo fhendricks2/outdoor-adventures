@@ -39,10 +39,43 @@
   #myBtn #myBtn:hover {
     background-color: #555; }
 
-@media screen and (min-width: 790px) {
+@media screen and (max-width: 790px) {
   .sections {
+    width: 16em; }
+
+  ul {
     display: block;
-    width: 35; } }
+    width: 35px; }
+
+  li {
+    text-align: center; } }
+@media screen and (max-width: 475px) {
+  .container h1 {
+    font-size: 30px; }
+
+  .dropdown-content {
+    margin-left: 2em; } }
+@media screen and (max-width: 1294px) {
+  .grid {
+    display: grid;
+    grid-column-gap: 15px;
+    grid-row-gap: 20px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr); } }
+@media screen and (max-width: 1268px) {
+  .grid {
+    display: inline-block;
+    overflow: hidden; } }
+@media screen and (max-width: 310px) {
+  .body {
+    font-size: 20px; } }
+@media screen and (max-width: 1330px) {
+  .wrap-contact100 {
+    display: block; } }
+@media screen and (max-width: 735px) {
+  .contact100-form {
+    width: 390px;
+    padding: 20px 55px 30px 55px; } }
 html {
   scroll-behavior: smooth;
   padding: 0px 20px; }
@@ -474,5 +507,26 @@ textarea.input100 {
 
   .dropdown-content {
     margin-left: 2em; } }
+@media screen and (max-width: 1294px) {
+  .grid {
+    display: grid;
+    grid-column-gap: 15px;
+    grid-row-gap: 20px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr); } }
+@media screen and (max-width: 1268px) {
+  .grid {
+    display: inline-block;
+    overflow: hidden; } }
+@media screen and (max-width: 310px) {
+  .body {
+    font-size: 20px; } }
+@media screen and (max-width: 1330px) {
+  .wrap-contact100 {
+    display: block; } }
+@media screen and (max-width: 735px) {
+  .contact100-form {
+    width: 390px;
+    padding: 20px 55px 30px 55px; } }
 
 /*# sourceMappingURL=main.css.map */

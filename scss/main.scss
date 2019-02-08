@@ -328,4 +328,45 @@ textarea.input100 {
         margin-left: 2em;
     }
 }
+
+// <<---Gallery--->>
+
+@media screen and (max-width: 1294px){
+    .grid {
+        display: grid;
+        grid-column-gap: 15px;
+        grid-row-gap: 20px;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 1268px){
+   .grid {
+       display: inline-block;
+       overflow: hidden;
+   }
+}
+
+@media screen and (max-width: 310px){
+    .body {
+        font-size: 20px; 
+    }
+}
+
+// <<---Contact Page--->>>
+
+@media screen and (max-width: 1330px){
+    .wrap-contact100 {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 735px){
+    .contact100-form {
+        width: 390px;
+        padding: 20px 55px 30px 55px;
+    }
+}
+
   
