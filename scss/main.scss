@@ -28,7 +28,7 @@ html {
 }
 
 .dropdown-content {
-    @include dropdown-content
+    @include dropdown-content;
 }
 
 
@@ -36,6 +36,7 @@ html {
     display: block;
     height: 10em;
 }
+
 
 // Home
 

@@ -27,17 +27,18 @@
     border-radius:5px;    
     ul {
         list-style-type: none;
-        display: inline-flex;
         font-size: 25px;
     }
 
     li {
         padding: 0 40px;
+        display: inline;
     }
 
     a {
         text-decoration: none;
         color: $color-body;
+        display: inline-block;
     }
 
     a:hover {
@@ -56,6 +57,7 @@
     z-index: 1;
     overflow: hidden;
     transition: all 1s ease;
+    margin-left: 7em;
 
     a{
         color: $color-text;
