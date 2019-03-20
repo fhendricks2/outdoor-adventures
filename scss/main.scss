@@ -77,6 +77,25 @@ html {
     @include activities
 }
 
+// Footer
+.footer2 {
+    width: 76.063em;
+    height: 40px;
+    background-color: $text;
+
+    p {
+        height: 14px;
+        font-family: SourceSansPro;
+        font-size: 14px;
+        @include font1;
+        line-height: 1.71;
+        letter-spacing: normal;
+        text-align: center;
+        color: $textp;
+        margin-top: 0;
+    }
+}
+
 
 // Back To Top Button
 #myBtn {
@@ -84,7 +103,9 @@ html {
 }
 
 // Gallery
-
+.sections2{
+    @include sections2;
+}
 .body {
     @include body;
 }
@@ -188,6 +209,10 @@ img {
 }
 
 // <<<---Contact Form--->>>
+.sections3{
+    @include sections3;
+}
+
 .container-contact100 {
     @include container-contact100;    
 }
