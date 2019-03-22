@@ -231,7 +231,7 @@ html {
 
 .sections2 {
   background: rgba(0, 0, 0, 0.1);
-  width: 45em;
+  width: 20em;
   padding: 0.4em;
   margin: 0 auto;
   -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -553,13 +553,19 @@ textarea.input100 {
     width: 35px; }
 
   li {
-    text-align: center; } }
+    text-align: center; }
+
+  #myBtn {
+    right: 20em; } }
 @media screen and (max-width: 475px) {
   .container h1 {
     font-size: 30px; }
 
   .dropdown-content {
-    margin-left: 2em; } }
+    margin-left: 2em; }
+
+  #myBtn {
+    right: 40em; } }
 @media screen and (max-width: 1294px) {
   .grid {
     display: grid;

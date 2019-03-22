@@ -342,6 +342,10 @@ textarea.input100 {
     li {
         text-align: center;
     }
+
+    #myBtn {
+        right: 20em;
+    }
 }
   
 @media screen and (max-width: 475px){
@@ -351,6 +355,10 @@ textarea.input100 {
 
     .dropdown-content {
         margin-left: 2em;
+    }
+
+    #myBtn {
+        right: 40em;
     }
 }
 
